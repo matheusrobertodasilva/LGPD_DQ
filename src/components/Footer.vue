@@ -2,7 +2,7 @@
 </script>
 
 <template>
-    <footer class="bg-[#00478F] text-white mt-10">
+    <footer class="bg-[#00478F] text-white">
         <div class="lg:max-w-[1136px] lg:mx-auto py-[20px] px-[14px] space-y-5">
             <img src="/src/assets/logo.png" alt="logo da prefeitura " class="w-[50%] lg:w-[20%] mx-auto">
             <div>

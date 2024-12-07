@@ -2,14 +2,14 @@
 </script>
 
 <template>
-    <main class="">
-        <section class="h-[100vh] bg-[url('src/assets/LGPD.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col justify-center px-[10px] lg:px-20">
+    <main class="bg-[rgb(5,1,29)] text-white pb-10">
+        <section class="h-[100vh] bg-[url('src/assets/CableV.png')] lg:bg-[url('src/assets/CableH.png')] bg-no-repeat bg-cover bg-center text-white flex flex-col justify-center px-[10px] lg:px-20">
             <h1 class="text-2xl lg:text-5xl font-bold ">LGPD</h1>
             <h2 class="text-2xl lg:text-4xl font-bold my-[14px] lg:mb-10">LEI GERAL DE PROTEÇÃO DE DADOS PESSOAIS</h2>
-            <button class="p-3 bg-blue-500 rounded-xl font-bold w-[32%] lg:w-[10%]">Saiba mais</button>
+            <a class="p-3 bg-blue-500 rounded-xl font-bold w-[32%] lg:w-[10%] text-center" href="#sobre">Saiba mais</a>
         </section>
         <div class="lg:max-w-[1136px] lg:mx-auto space-y-[38px] mt-[38px]">
-            <section class="px-[14px] space-y-[34px]">
+            <section id="sobre" class="px-[14px] space-y-[34px]">
                 <article class="space-y-5">
                     <h2 class="text-[28px] font-bold text-center">O que é a LGPD?</h2>
                     <div class="space-y-5 ">
@@ -114,6 +114,26 @@
                             </p>
                         </div>
                         <img src="/src/assets/fundamentosLGPD.png" alt="" class="rounded-xl lg: lg:mr-12">
+                    </div>
+                </article>
+                <article class="space-y-5">
+                    <h2 class="text-[28px] font-bold text-center">LGPD e agentes de tratamento</h2>
+                    <div class="space-y-5 lg:space-y-0 lg:flex lg:">
+                        <!-- <img src="" alt="" class="rounded-3xl lg:w-[50%] lg:mr-12"> -->
+                        <div class="space-y-5">
+                            <p>
+                                No âmbito da LGPD, o tratamento dos dados pessoais pode ser realizado por dois agentes de tratamento, o controlador e o operador.
+                            </p>
+                            <p>
+                                O controlador é definido pela Lei como a pessoa natural ou jurídica, de direito público ou privado, a quem competem as decisões referentes ao tratamento de dados pessoais. Na Administração Pública, o controlador será a pessoa jurídica do órgão ou entidade pública sujeita à Lei, representada pela autoridade imbuída de adotar as decisões acerca do tratamento de tais dados.
+                            </p>
+                            <p>
+                                O operador é a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome do controlador, aí incluídos agentes públicos no sentido amplo que exerçam tal função, bem como pessoas jurídicas diversas daquela representada pelo controlador, que exerçam atividade de tratamento no âmbito de contrato ou instrumento congênere.
+                            </p>
+                            <p>
+                                Considera-se “tratamento de dados” qualquer atividade que utilize um dado pessoal na execução da sua operação, como, por exemplo: coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração.
+                            </p>
+                        </div>
                     </div>
                 </article>
             </section>

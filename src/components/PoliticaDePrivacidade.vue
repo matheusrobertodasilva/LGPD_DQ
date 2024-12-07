@@ -3,7 +3,7 @@
 
 <template>
     <main>
-        <section class="lg:max-w-[1136px] lg:mx-auto px-[14px] mt-[34px] space-y-5">
+        <section class="lg:max-w-[1136px] lg:mx-auto px-[14px] py-[34px] space-y-5">
             <div class="space-y-[24px]">
                 <h1 class="text-[28px] font-bold text-center ">Política de Privacidade</h1>
                 <div class="space-y-5">
